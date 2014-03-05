@@ -3,10 +3,10 @@
 
 #### 설치
 
-`gem install sinatra`
-`gem install sinatra-contrib`
+`gem install sinatra` 
+`gem install sinatra-contrib` 
 
 #### 실행
 
-command 창에서 `ruby quiz.rb`
-browser에서 `localhost:4567`
+command 창에서 `ruby quiz.rb` 
+browser에서 `localhost:4567` 
