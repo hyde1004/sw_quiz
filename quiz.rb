@@ -10,3 +10,7 @@ end
 get '/test' do
 	'Test'
 end
+
+get '/:id' do
+	erb :question
+end
