@@ -16,21 +16,13 @@ end
 # end
 
 get '/1' do
-	'<p>3+3은 얼마인가요?</p>
-	<ol>
-	<li>3</li>
-	<li>4</li>
-	<li>5</li>
-	<li>6</li>
-	</ol>'
+	erb :'1'
 end
 
 get '/2' do
-	'<p>음악의 아버지는?</p>
-	<ol>
-	<li>모짜르트</li>
-	<li>바하</li>
-	<li>헨델</li>
-	<li>비발디</li>
-	</ol>'	
+	erb :'2'
+end
+
+get '/3' do
+	erb :'3'
 end
