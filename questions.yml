@@ -1,0 +1,19 @@
+--- 
+-
+ desc: "3+3은 얼마인가요?"
+ list1: 3
+ list2: 4
+ list3: 5
+ list4: 6
+-
+ desc: "음악의 아버지는?"
+ list1: 모짜르트
+ list2: 바하
+ list3: 헨델
+ list4: 비발디
+-
+ desc: "빨간색의 보색은?"
+ list1: 검은색
+ list2: 녹색
+ list3: 노란색
+ list4: 보라색
