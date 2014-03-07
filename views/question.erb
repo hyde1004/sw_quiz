@@ -1,10 +1,11 @@
-<p><%= @desc %></p>
-<ol>
-	<li><%= @list1 %></li>
-	<li><%= @list2 %></li>
-	<li><%= @list3 %></li>
-	<li><%= @list4 %></li>
-</ol>
+<form action=# method="POST">
+	<p><%= @desc %></p>
+	<input type="radio" name="answer" value="list1"/><%= @list1 %><br/>
+	<input type="radio" name="answer" value="list2"/><%= @list2 %><br/>
+	<input type="radio" name="answer" value="list3"/><%= @list3 %><br/>
+	<input type="radio" name="answer" value="list4"/><%= @list4 %><br/>
+<!-- 	<input type="submit"/> -->
+</form>
 
 <a href=<%= @id %>>Prev</a>
 <a href=<%= @id + 2%>>Next</a>
